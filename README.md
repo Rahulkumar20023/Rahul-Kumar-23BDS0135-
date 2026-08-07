@@ -1,7 +1,7 @@
 # EDA Course Project: Hepatitis C Data Analysis
 
 ## Project Overview
-This repository contains the Exploratory Data Analysis (EDA) for the Hepatitis C dataset as part of the EDA Course Project. The project is divided into three phases, with this initial submission covering **Phase 1**.
+This repository contains the Exploratory Data Analysis (EDA) for the Hepatitis C dataset as part of the EDA Course Project.  This is initial submission covering **Phase 1**.
 
 The goal of this project is to analyze clinical data to identify patterns and relationships between various liver function biomarkers and the health status of patients (Blood Donors vs. Hepatitis/Cirrhosis patients).
 
