@@ -1,7 +1,7 @@
 # EDA Course Project: Hepatitis C Data Analysis
 
 ## Project Overview
-This repository contains the Exploratory Data Analysis (EDA) for the Hepatitis C dataset as part of the EDA Course Project.  This is initial submission covering **Phase 1**.
+This repository contains the Exploratory Data Analysis (EDA) and Statistical/Clustering Analysis for the Hepatitis C dataset as part of the EDA Course Project. This submission covers **Phase 1** and **Phase 2**.
 
 The goal of this project is to analyze clinical data to identify patterns and relationships between various liver function biomarkers and the health status of patients (Blood Donors vs. Hepatitis/Cirrhosis patients).
 
@@ -24,10 +24,19 @@ In this phase, the following tasks were successfully completed:
 7.  **Bivariate Analysis:** Three visualizations (Age vs. Category, AST vs. ALT scatter, and Bilirubin bar charts).
 8.  **Multivariate Analysis:** Three visualizations (Correlation heatmap, Pairplots, and Faceted scatter plots).
 
+## Phase 2: Statistical Analysis & Clustering
+Building on the cleaned dataset from Phase 1, the following tasks were completed in the same notebook:
+
+1.  **1D (Univariate) Statistical Analysis:** Full descriptive statistics (mean, median, mode, variance, skewness, kurtosis, range) for all numeric biomarkers, Shapiro-Wilk normality testing, and IQR-based outlier detection, visualized with fitted-normal-curve distribution plots.
+2.  **2D (Bivariate) Statistical Analysis:** Pearson and Spearman correlation matrices, covariance matrix, and hypothesis testing — one-way ANOVA (Age vs. Category), Chi-square test (Sex vs. Category), and Pearson significance testing (ALT vs. AST) — supported by regression scatter plots.
+3.  **3D (Multivariate) Statistical Analysis:** Three-way grouped statistics (Category × Sex) and 3D visualizations, including a 3D scatter plot (ALB, ALT, AST), a 3D bubble plot with a 4th dimension via bubble size (Age, BIL, CHOL, sized by ALT), and rotated multi-view 3D plots of liver enzymes (ALT, AST, GGT).
+4.  **K-Means Clustering:** Feature scaling, optimal cluster selection via the Elbow Method and Silhouette Score, final clustering, PCA-based 2D visualization, 3D feature-space visualization, and cluster profiling.
+5.  **Hierarchical Clustering:** Agglomerative clustering with Ward linkage, dendrogram visualization, PCA-based cluster visualization, and a comparison against K-Means (silhouette scores, PCA side-by-side, cross-tabulation) and against the true Category labels.
+
 ## Technologies Used
 - **Language:** Python
 - **Environment:** Google Colab
-- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
+- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, SciPy, Scikit-learn
 
 ## How to Run the Project
 1. Open the `.ipynb` file in this repository.
@@ -36,9 +45,9 @@ In this phase, the following tasks were successfully completed:
 
 ## Project Timeline
 - **Phase 1 Deadline:** 7 August 2026 (Completed)
-
+- **Phase 2:** Statistical Analysis (1D/2D/3D) and Clustering (Completed)
 
 ---
-**Name:** Rahul Kumar(23BDS0135)
-**Course:** EDA Course Project  
-**Date:** August 2026
+**Name:** Rahul Kumar (23BDS0135)
+**Course:** EDA Course Project
+**Date:** September 2026
